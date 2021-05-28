@@ -24,7 +24,7 @@ function greeterTwo() {
 // setup to allow image change, an array of images 
 var coinImage = document.querySelector("#coinimage")
 
-var images = ['ttps://github.com/tresuave/tresuave.github.io/blob/another_project/Heads%20or%20Tails%20Game/images/heads.png','https://github.com/tresuave/tresuave.github.io/blob/another_project/Heads%20or%20Tails%20Game/images/tails.png']
+var images = ['https://github.com/tresuave/another_project/blob/main/images/heads.png','https://github.com/tresuave/another_project/blob/main/images/tails.png']
 
 // Heads and Tails button setup to attach to function, 4 buttons in total
 
