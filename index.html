@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heads or Tails Game</title>
+    <link rel="stylesheet" a href="style.css">
+
+    
+</head>
+<body>
+<div class="display_screen">
+   <!-- this is the name colletion part of the code. should welcome users by name -->
+   <div class = "player1name">
+        <label for="name" name="name">Player 1 enter your name:</label>
+        <input form="name" id ="playerOne">
+        <button class="sub-btn1" id="submit" button onclick="greeter()"> Submit </button>
+   </div>
+
+        <!-- Player 2 name collection, ideally code should be dynamic with javascript -->
+        <div class = "player2name">
+            <label for="name" name="name2">Player 2 enter your name:</label>
+            <input form="name" id="playerTwo">
+            <button class="sub-btn2"id="submit" button onclick="greeterTwo()"> Submit </button> 
+        </div>
+
+            <!-- code should take input and welcome users, most likely done by Javascript -->
+    <div class="greeting">
+        <h1 class ="greetings"> </h1>
+
+        <!-- score will be changed in Javascript -->
+        <div class="scoreholder">Playa 1:<span id="score"></span> </div>
+        <div class="scoreholder2">Playa 2:<span id="score2"></span> </div>
+
+        <!-- image of a coin, a bitcoin -->
+        <div class="coin">
+            <img src="https://github.com/tresuave/tresuave.github.io/blob/portfolio/Heads%20or%20Tails%20Game/images/heads.png" id="coinimage">
+
+            <!-- buttons will initiate flip of coin -->
+            <div class ="buttons">
+               <h4 id="playa">Player 1</h3> <input type="button" id="heads" value="heads" button onclick="coinImageChange()">
+
+                <input type="button"  id="tails" value="tails"button onclick="coinImageChange()">
+                <hr></hr>
+                <h4 id="playa2">Player 2</h4>
+                <input type="button" id="heads2" value="heads"button onclick="coinImageChange2()"> 
+
+                <input type ="button"  id="tails2" value="tails"button onclick="coinImageChange2()">
+           
+            </div>
+        </div>    
+    
+    </div>
+</div>
+
+
+<script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+*{
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size:1em;
+
+}
+.display_screen{
+    background-color: darkgoldenrod;
+    height: max-content;
+    width:100%;
+    box-shadow: 0.5em 0.5em darkgrey;
+}
+@media screen and (max-width:768px){
+    .display_screen{
+        width:fit-content;
+        height: 100%;
+    }
+}
+label,.scoreholder,.scoreholder2{
+    font-weight: bold;
+  }
+  input,button{
+      background:peru;
+  }
